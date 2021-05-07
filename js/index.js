@@ -13,8 +13,8 @@ function buscador(data) {
         dataType: 'json',
         success: function (dados) {
             document.getElementById('imagem').src = dados.url
-            document.getElementById('titulo').innerText = dados.titulo
-            document.getElementById('descricao').innerText = dados.descricao
+            document.getElementById('titulo').innerText = dados.title
+            document.getElementById('descricao').innerText = dados.explanation
         }
     })
 }

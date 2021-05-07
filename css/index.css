@@ -118,12 +118,20 @@ body {
 
 }
 
-.descricao { 
+p { 
   color: rgb(255, 255, 255);
   font-family: 'Nunito', sans-serif;
   font-size: 18px;
   line-height: 150%;
   size: 80%;
+  margin: 50px;
 }
 
+h1 { 
+  color: rgb(255, 255, 255);
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  line-height: 150%;
+  margin: 40px;
 
+}
